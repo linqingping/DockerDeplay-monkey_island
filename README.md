@@ -1,3 +1,11 @@
+Infection Monkey是一个开放源代码安全工具，用于测试数据中心对外围漏洞和内部服务器感染的恢复能力。Monkey使用各种方法在整个数据中心进行自我传播，并向集中的Monkey Island服务器报告成功情况。
+![image](https://github.com/linqingping/DockerDeplay-monkey_island/blob/master/images/map-full.png)
+![image](https://github.com/linqingping/DockerDeplay-monkey_island/blob/master/images/Security-overview.png)
+
+感染猴由两部分组成：
+1.猴子-感染其他机器并传播到其他机器的工具
+2.Monkey Island-专用服务器，用于控制和可视化感染猴子在数据中心内部的进度
+要了解有关猴子的更多信息，请访问http://infectionmonkey.com
 ```
 https://www.guardicore.com/infectionmonkey/index.html
 fill out the form to receive an email with a link to the Infection Monkey package/image  choose docker
